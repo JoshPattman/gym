@@ -205,7 +205,7 @@ func (e *CartPoleEnv) Render(target pixel.Target) {
 
 // ActionLength returns the length of the action vector.
 func (e *CartPoleEnv) ActionLength() int {
-	return 3
+	return 1
 }
 
 // ObservationLength returns the length of the observation vector.
