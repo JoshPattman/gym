@@ -111,7 +111,7 @@ func (e *CartPoleEnv) Step(action []float64) StepData {
 
 	// Check if we failed, and find the reward
 	failed := false
-	reward := e.Settings.CenteredPerStepReward*1 - math.Abs(e.BoxPosition) // Reward falls off the further we are from the center.
+	reward := e.Settings.CenteredPerStepReward * math.Abs(1-e.BoxPosition) // Reward falls off the further we are from the center.
 	if e.BoxPosition > 1.0 || e.BoxPosition < -1.0 {
 		failed = true
 		reward = e.Settings.OutOfBoundsReward
