@@ -1,3 +1,5 @@
+github.com/ByteArena/box2d v1.0.2 h1:f7f9KEQWhCs1n516DMLzi5w6u0MeeE78Mes4fWMcj9k=
+github.com/ByteArena/box2d v1.0.2/go.mod h1:LzEuxY9iCz+tskfWCY3o0ywYBRafDDugdSj+/YGI6sE=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/faiface/glhf v0.0.0-20211013000516-57b20770c369 h1:gv4BgP50atccdK/1tZHDyP6rMwiiutR2HPreR/OyLzI=

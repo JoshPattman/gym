@@ -2,7 +2,11 @@ module github.com/JoshPattman/gym
 
 go 1.21.0
 
-require github.com/gopxl/pixel v1.0.0
+require (
+	github.com/ByteArena/box2d v1.0.2
+	github.com/gopxl/pixel v1.0.0
+	golang.org/x/image v0.13.0
+)
 
 require (
 	github.com/faiface/glhf v0.0.0-20211013000516-57b20770c369 // indirect
@@ -11,5 +15,4 @@ require (
 	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20221017161538-93cebf72946b // indirect
 	github.com/go-gl/mathgl v1.1.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	golang.org/x/image v0.13.0 // indirect
 )
